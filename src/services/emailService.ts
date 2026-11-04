@@ -8,17 +8,11 @@ export interface ContactFormData {
 
 export const EMAILJS_CONFIG = {
   serviceId:
-    import.meta.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ||
-    import.meta.env.VITE_EMAILJS_SERVICE_ID ||
-    'service_v0x1spc',
-  templateId:
-    import.meta.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ||
-    import.meta.env.VITE_EMAILJS_TEMPLATE_ID ||
-    'template_e9zkbw2',
+    'service_zknjkyc',
+  templateId: 
+    'template_qbzm2kn',
   publicKey:
-    import.meta.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ||
-    import.meta.env.VITE_EMAILJS_PUBLIC_KEY ||
-    'o0ZPE5JFUeW4XvWmc',
+    'IKDO9zu9Y4v8lxeGj',
 }
 
 /**
