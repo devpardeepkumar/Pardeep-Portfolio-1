@@ -1,4 +1,5 @@
 import './App.css'
+import { ThemeProvider } from './context/ThemeContext'
 import { Navbar } from './components/layout/Navbar'
 import { Footer } from './components/layout/Footer'
 import { About } from './components/sections/About'
@@ -12,20 +13,22 @@ import { Skills } from './components/sections/Skills'
 
 function App() {
   return (
-    <div className="site-shell min-h-screen bg-[#101210] text-[#eeefec]">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Achievements />
-        <Experience />
-        <Skills />
-        <Education />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <ThemeProvider>
+      <div className="site-shell min-h-screen">
+        <Navbar />
+        <main>
+          <Hero />
+          <About />
+          <Projects />
+          <Achievements />
+          <Experience />
+          <Skills />
+          <Education />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </ThemeProvider>
   )
 }
 

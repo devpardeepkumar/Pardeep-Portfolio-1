@@ -86,7 +86,7 @@ export function Hero() {
         <span className="art-index">01 — 04 / FULL STACK</span>
       </motion.div>
       <a className="scroll-cue" href="#about"><ArrowDown size={15} /> SCROLL TO EXPLORE</a>
-      <span className="hero-side-note">INDEPENDENT THINKING. THOUGHTFUL ENGINEERING.</span>
+      {/* <span className="hero-side-note">INDEPENDENT THINKING. THOUGHTFUL ENGINEERING.</span> */}
     </section>
   )
 }

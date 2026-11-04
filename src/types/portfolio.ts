@@ -10,6 +10,8 @@ export interface Project {
   outcomes: string[]
   technologies: string[]
   tone: ProjectTone
+  image?: string
+  link?: string
 }
 
 export interface ExperienceEntry {
